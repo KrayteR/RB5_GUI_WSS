@@ -7,6 +7,9 @@ def pokaz_tekst():
 okno = tk.Tk()
 okno.title("Prosty program GUI")
 
+# Ustawienie pełnego ekranu
+okno.attributes('-fullscreen', True)
+
 pole_tekstowe = tk.Entry(okno, width=30)
 pole_tekstowe.pack(pady=10)
 
